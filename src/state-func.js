@@ -28,7 +28,7 @@ export default function MessageBox(){
         <div style={msgboxStyle}>{text}</div><br/><br/>
         <button onClick={onClickSetText}>ข้อความ</button>&nbsp;
         <button onClick={onClickZoomIn}>เพิ่มขนาด</button>&nbsp;
-        <button onClick={()=>setSize(size-1)}>ข้อความ</button>
+        <button onClick={()=>setSize(size-1)}>ลดขนาด</button>
 
     </div>
     )
